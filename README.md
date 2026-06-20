@@ -44,7 +44,7 @@ Data Science / Machine Learning student focused on building reliable ML systems 
 
 ## Current Work
 - Robustness analysis of ML models under noise and distribution shift
-- Exploring CNN-based image classification
+- Exploring interpretability algorithms in tree-based ensembles
 - Studying adversarial robustness and noise sensitivity in vision models
 
 ---
