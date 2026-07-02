@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Versioning-F05032?logo=git&logoColor=white)
 
-Data Science / Machine Learning student focused on building reliable ML systems for tabular and structured data, with emphasis on measurable performance and controlled generalization error.
+Data Science / Machine Learning student focused on building reliable ML systems for tabular structured data, with emphasis on measurable performance, real-world robustness and interpretability
 
 ## Core Focus
 - Supervised learning on tabular datasets
@@ -14,6 +14,7 @@ Data Science / Machine Learning student focused on building reliable ML systems 
 - End-to-end Python ML pipelines
 
 ## Technical Stack
+
 **Python:** pandas, numpy, matplotlib, scikit-learn, pytorch
 
 **Tools:** Git, Linux (Arch), Jupyter, VS Code, Claude Desktop
@@ -44,8 +45,8 @@ Data Science / Machine Learning student focused on building reliable ML systems 
 
 ## Current Work
 - Robustness analysis of ML models under noise and distribution shift
-- Exploring interpretability algorithms in tree-based ensembles
-- Studying adversarial robustness and noise sensitivity in vision models
+- Studying interpretability algorithms in tree-based ensembles
+- Exploring adversarial robustness and noise sensitivity in vision models
 
 ---
 
