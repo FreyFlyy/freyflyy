@@ -17,7 +17,7 @@ Data Science / Machine Learning student focused on building reliable ML systems 
 
 **Python:** pandas, numpy, matplotlib, scikit-learn, pytorch
 
-**Tools:** Git, Linux (Arch), Jupyter, VS Code, Claude Desktop
+**Tools:** Git, Linux (Arch based), Jupyter, VS Code, Claude Desktop
 
 ---
 
@@ -44,9 +44,9 @@ Data Science / Machine Learning student focused on building reliable ML systems 
 ---
 
 ## Current Work
-- Robustness analysis of ML models under noise and distribution shift
-- Studying interpretability algorithms in tree-based ensembles
-- Exploring adversarial robustness and noise sensitivity in vision models
+* **Model Robustness & Stress-Testing:** Analyzing ensemble performance decay under progressive feature omission and noise injection.
+* **Explainability & Decision Limits:** Studying global and local interpretability in tree-based models (SHAP/tree-priors) to evaluate threshold sensitivity under asymmetric loss regimes.
+* **Production-Ready Engineering:** Developing vectorized validation pipelines, probability calibration logic, and empirical performance testing using frequentist confidence intervals.
 
 ---
 
