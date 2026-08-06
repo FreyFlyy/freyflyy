@@ -1,8 +1,8 @@
 # Francesco Scolz
 
 [![Arch Linux Supporter](https://img.shields.io/badge/Arch_Linux-Supporter-green?logo=arch-linux&logoColor=1793D1)](https://archlinux.org/donate/)
-![Linux](https://img.shields.io/badge/OS-Linux-FCC624?logo=linux&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Platform-Linux-FCC624?logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Versioning-F05032?logo=git&logoColor=white)
 
 Data Science / Machine Learning student focused on building reliable ML systems for tabular structured data, with emphasis on measurable performance, real-world robustness and interpretability
