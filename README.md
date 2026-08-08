@@ -15,31 +15,31 @@ Data Science / Machine Learning student focused on building reliable ML systems 
 
 ## Technical Stack
 
-**Python:** pandas, numpy, matplotlib, scikit-learn, pytorch
+**Python:** pandas, numpy, matplotlib, scikit-learn, pytorch, shap
 
-**Tools:** Git, Linux (Arch based), Jupyter, VS Code, Claude Desktop
+**Tools:** Git, Linux (Arch based), Jupyter, VSCode / NeoVim IDE
 
 ---
 
 ## Best Projects
 
-### Santander Transaction Prediction (binary classification)
-- **Model**: Neural Network
-- **Task**: Predict transactions on an anonymized tabular financial data
-- **Result**: positive net profit on the test set based on backtested model predictions
-- **Notes**: strong class imbalance; anonymized features (no semantic interpretation available)
-
-### Youth Stress Prediction (multi-class classification)
-- **Model**: Logistic Regression
-- **Task**: Predict stress type from a 25-question survey
-- **Result**: Macro F1 = 0.8538
-- **Notes**: performance achieved under significant class imbalance
+### **FEATURED** - Taiwan Robust and Explainable Credit Lend 
+- **Model**: Triple-scenario model engine (RF and LR)
+- **Task**: Predict credit card default from tabular behavioral financial data
+- **Result**: positive mean net profit on the test set based on backtested model predictions
+- **Notes**: Entirely business driven and tested under real world hypotheses and noisy scenarios
 
 ### Weather Rain Prediction S. Osvaldo (binary classification)
 - **Model**: Random Forest
 - **Task**: Predict next-day rain from past meteorological data
 - **Result**: Accuracy 71.35%, ROC-AUC 77.27%
 - **Notes**: trained on real-world meteorological data with noisy features
+
+### Youth Stress Prediction (multi-class classification)
+- **Model**: Logistic Regression
+- **Task**: Predict stress type from a 25-question survey
+- **Result**: Macro F1 = 0.8538
+- **Notes**: performance achieved under significant class imbalance
 
 ---
 
@@ -53,4 +53,5 @@ Data Science / Machine Learning student focused on building reliable ML systems 
 ## Contacts
 - GitHub: [FreyFlyy](https://github.com/FreyFlyy)
 - LinkedIn: [Francesco Scolz](https://www.linkedin.com/in/francesco-scolz)
+- Hugging Face: [FreyFlyy](https://huggingface.co/FreyFlyy)
 - Email: francesco.scolz@gmail.com
