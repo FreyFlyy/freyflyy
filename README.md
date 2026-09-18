@@ -54,4 +54,3 @@ Data Science / Machine Learning student focused on building reliable ML systems 
 - GitHub: [FreyFlyy](https://github.com/FreyFlyy)
 - LinkedIn: [Francesco Scolz](https://www.linkedin.com/in/francesco-scolz)
 - Hugging Face: [FreyFlyy](https://huggingface.co/FreyFlyy)
-- Email: francesco.scolz@gmail.com
