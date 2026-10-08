@@ -21,9 +21,9 @@ Data Science / Machine Learning student focused on building reliable ML systems 
 
 ---
 
-## Best Projects
+## Top ML Projects (in [Data Science Projets](https://github.com/FreyFlyy/data-science-projects))
 
-### **FEATURED** - Taiwan Robust and Explainable Credit Lend 
+### Taiwan Robust and Explainable Credit Lend 
 - **Model**: Triple-scenario model engine (RF and LR)
 - **Task**: Predict credit card default from tabular behavioral financial data
 - **Result**: positive mean net profit on the test set based on backtested model predictions
@@ -40,6 +40,23 @@ Data Science / Machine Learning student focused on building reliable ML systems 
 - **Task**: Predict stress type from a 25-question survey
 - **Result**: Macro F1 = 0.8538
 - **Notes**: performance achieved under significant class imbalance
+
+## Top non-ML Projects
+
+### [LightIDS](https://github.com/FreyFlyy/light-ids)
+- **Description**: Lightweight, heuristic-based **Intrusion Detection System** for real-time network traffic analysis and anomaly detection in home labs.
+- **Structure**: Python/Flask backend with `tshark` packet capture and heuristic scoring engine + JavaScript/Chart.js web dashboard; SQLite persistence, configurable thresholds, graylist/watchlist/whitelist and authentication.
+- **Result**: **v3.0.0**, tested on a Raspberry Pi 5 with ~10–12 devices and a 20 Mbps network; **<1% CPU** in idle conditions and ~220–330 MB RAM, capable of detecting port scans, flooding/DoS patterns and suspicious service probing.
+
+### [Redoubt](https://github.com/FreyFlyy/Redoubt)
+- **Description**: Peer-to-peer messaging application providing **end-to-end encryption**, authenticated contacts and protection against passive network observation and active MITM attacks.
+- **Structure**: Python CLI/TUI using X25519, HKDF, AES-GCM, Argon2id and SQLCipher; encrypted identity vault, fixed-size 4096-byte packet padding, out-of-band fingerprint verification and hardened storage/memory handling.
+- **Result**: **v0.0.1 experimental / V1**, with a documented threat model and explicit security limitations; packaged for Arch Linux and designed with a roadmap toward **Double Ratchet/X3DH**, post-compromise security and memory-safe critical components.
+- 
+### [Recto](https://github.com/FreyFlyy/Recto)
+- **Description**: Free, open-source, self-hosted flashcard platform combining **Vaia/StudySmarter-style rating** with Anki's openness, but without forced spaced repetition.
+- **Structure**: Minimal Python HTTP server using only the standard library + vanilla JavaScript frontend; filesystem-based CSV decks, persistent JSON ratings, REST API, HTML sanitization, import/export and systemd support.
+- **Result**: **v1.0.0**, fully self-hosted and device-independent, with mobile-friendly UI, editable decks, filtering by rating/tag/subdeck and direct **CSV import**.
 
 ---
 
