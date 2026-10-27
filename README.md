@@ -1,3 +1,4 @@
+
 # Francesco Scolz
 
 [![Arch Linux Supporter](https://img.shields.io/badge/Arch_Linux-Supporter-green?logo=arch-linux&logoColor=1793D1)](https://archlinux.org/donate/)
@@ -5,69 +6,101 @@
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Versioning-F05032?logo=git&logoColor=white)
 
-Data Science / Machine Learning student focused on building reliable ML systems for tabular structured data, with emphasis on measurable performance, real-world robustness and interpretability
+Student focused on computer science, mathematics, and systems engineering, with hands-on experience developing software, managing Linux systems, analyzing network traffic, and building machine learning pipelines.
+
+I work across the stack, from system configuration and network analysis to application development, data analysis, and model evaluation. My projects emphasize practical engineering, measurable results, reliability, and a clear understanding of system behavior.
 
 ## Core Focus
-- Supervised learning on tabular datasets
-- Model evaluation, validation strategies, error analysis
-- Feature engineering for structured data
-- End-to-end Python ML pipelines
+
+- Linux systems administration and service management
+- Network traffic analysis and intrusion detection
+- Software development and system architecture
+- Applied machine learning and statistical evaluation
+- Data analysis, model robustness, and interpretability
 
 ## Technical Stack
 
-**Python:** pandas, numpy, matplotlib, scikit-learn, pytorch, shap
+**Languages:** Python (proficient), C and SQL (basics)
 
-**Tools:** Git, Linux (Arch based), Jupyter, VSCode / NeoVim IDE
+**Systems & Networking:** Linux, Arch Linux, systemd, tshark, TCP/IP
+
+**Data Science & ML:** NumPy, pandas, scikit-learn, PyTorch, SHAP, Matplotlib
+
+**Development Tools:** Git, Jupyter, VS Code and derivatives
 
 ---
 
-## Top ML Projects (in [Data Science Projets](https://github.com/FreyFlyy/data-science-projects))
-
-### Taiwan Robust and Explainable Credit Lend 
-- **Model**: Triple-scenario model engine (RF and LR)
-- **Task**: Predict credit card default from tabular behavioral financial data
-- **Result**: positive mean net profit on the test set based on backtested model predictions
-- **Notes**: Entirely business driven and tested under real world hypotheses and noisy scenarios
-
-### Weather Rain Prediction S. Osvaldo (binary classification)
-- **Model**: Random Forest
-- **Task**: Predict next-day rain from past meteorological data
-- **Result**: Accuracy 71.35%, ROC-AUC 77.27%
-- **Notes**: trained on real-world meteorological data with noisy features
-
-### Youth Stress Prediction (multi-class classification)
-- **Model**: Logistic Regression
-- **Task**: Predict stress type from a 25-question survey
-- **Result**: Macro F1 = 0.8538
-- **Notes**: performance achieved under significant class imbalance
-
-## Top non-ML Projects
+## Featured Projects
 
 ### [LightIDS](https://github.com/FreyFlyy/light-ids)
-- **Description**: Lightweight, heuristic-based **Intrusion Detection System** for real-time network traffic analysis and anomaly detection in home labs.
-- **Structure**: Python/Flask backend with `tshark` packet capture and heuristic scoring engine + JavaScript/Chart.js web dashboard; SQLite persistence, configurable thresholds, graylist/watchlist/whitelist and authentication.
-- **Result**: **v3.0.0**, tested on a Raspberry Pi 5 with ~10–12 devices and a 20 Mbps network; **<1% CPU** in idle conditions and ~220–330 MB RAM, capable of detecting port scans, flooding/DoS patterns and suspicious service probing.
+
+Lightweight, heuristic-based Intrusion Detection System for real-time network traffic analysis and anomaly detection in home labs.
+
+- **Implementation:** Python/Flask backend, `tshark` packet capture, heuristic scoring engine, JavaScript/Chart.js dashboard, and SQLite persistence.
+- **Features:** Configurable thresholds, graylist/watchlist/whitelist, authentication, and real-time traffic monitoring.
+- **Deployment:** Tested on a Raspberry Pi 5 in a home network with approximately 10–12 devices and a 20 Mbps connection.
+- **Resource usage:** Under 1% CPU direct at idle and approximately 220–330 MB RAM.
+- **Detection capabilities:** Port scans, flooding/DoS patterns, and suspicious service probing.
+- **Status:** v3.0.0.
 
 ### [Redoubt](https://github.com/FreyFlyy/Redoubt)
-- **Description**: Peer-to-peer messaging application providing **end-to-end encryption**, authenticated contacts and protection against passive network observation and active MITM attacks.
-- **Structure**: Python CLI/TUI using X25519, HKDF, AES-GCM, Argon2id and SQLCipher; encrypted identity vault, fixed-size 4096-byte packet padding, out-of-band fingerprint verification and hardened storage/memory handling.
-- **Result**: **v0.0.1 experimental / V1**, with a documented threat model and explicit security limitations; packaged for Arch Linux and designed with a roadmap toward **Double Ratchet/X3DH**, post-compromise security and memory-safe critical components.
-- 
+
+Peer-to-peer messaging application providing end-to-end encryption, authenticated contacts, and protection against passive network observation and active man-in-the-middle attacks.
+
+- **Implementation:** Python CLI/TUI using X25519, HKDF, AES-GCM, Argon2id, and SQLCipher.
+- **Security features:** Encrypted identity vault, fixed-size 4096-byte packet padding, out-of-band fingerprint verification, and hardened storage/memory handling.
+- **Security model:** Documented threat model and explicit security limitations.
+- **Status:** Experimental early release, with a roadmap toward Double Ratchet/X3DH, post-compromise security, and memory-safe critical components.
+- **Packaging:** Arch Linux.
+
 ### [Recto](https://github.com/FreyFlyy/Recto)
-- **Description**: Free, open-source, self-hosted flashcard platform combining **Vaia/StudySmarter-style rating** with Anki's openness, but without forced spaced repetition.
-- **Structure**: Minimal Python HTTP server using only the standard library + vanilla JavaScript frontend; filesystem-based CSV decks, persistent JSON ratings, REST API, HTML sanitization, import/export and systemd support.
-- **Result**: **v1.0.0**, fully self-hosted and device-independent, with mobile-friendly UI, editable decks, filtering by rating/tag/subdeck and direct **CSV import**.
+
+Free, open-source, self-hosted flashcard platform combining rating-based study workflows with Anki-style openness, without mandatory spaced repetition.
+
+- **Implementation:** Minimal Python HTTP server using only the standard library, with a vanilla JavaScript frontend.
+- **Storage:** Filesystem-based CSV decks and persistent JSON ratings.
+- **Features:** REST API, HTML sanitization, import/export, editable decks, filtering by rating/tag/subdeck, and mobile-friendly UI.
+- **Deployment:** Self-hosted, device-independent, and compatible with systemd.
+- **Status:** v1.0.0.
+
+---
+
+## Machine Learning Projects
+
+### [Taiwan Robust and Explainable Credit Lending](https://github.com/FreyFlyy/data-science-projects)
+
+- **Model:** Triple-scenario model engine using Random Forest and Logistic Regression.
+- **Task:** Predict credit card default from structured financial and behavioral data.
+- **Evaluation:** Positive mean net profit on the test set based on backtested model predictions.
+- **Focus:** Business-driven evaluation under real-world hypotheses and noisy scenarios.
+
+### Weather Rain Prediction — S. Osvaldo
+
+- **Model:** Random Forest.
+- **Task:** Predict next-day rain from historical meteorological data.
+- **Results:** Accuracy 71.35%, ROC-AUC 77.27%.
+- **Focus:** Classification using real-world meteorological data with noisy features.
+
+### Youth Stress Prediction
+
+- **Model:** Logistic Regression.
+- **Task:** Predict stress type from a 25-question survey.
+- **Results:** Macro F1 = 0.8538.
+- **Focus:** Multiclass classification under significant class imbalance.
 
 ---
 
 ## Current Work
-* **Model Robustness & Stress-Testing:** Analyzing ensemble performance decay under progressive feature omission and noise injection.
-* **Explainability & Decision Limits:** Studying global and local interpretability in tree-based models (SHAP/tree-priors) to evaluate threshold sensitivity under asymmetric loss regimes.
-* **Production-Ready Engineering:** Developing vectorized validation pipelines, probability calibration logic, and empirical performance testing using frequentist confidence intervals.
+
+- **Model Robustness & Stress Testing:** Analyzing ensemble performance degradation under progressive feature omission and noise injection.
+- **Explainability & Decision Limits:** Investigating global and local interpretability in tree-based models, including SHAP, and evaluating threshold sensitivity under asymmetric loss.
+- **Production-Oriented ML Engineering:** Developing vectorized validation pipelines, probability calibration, and empirical performance evaluation using frequentist confidence intervals.
 
 ---
 
-## Contacts
-- GitHub: [FreyFlyy](https://github.com/FreyFlyy)
-- LinkedIn: [Francesco Scolz](https://www.linkedin.com/in/francesco-scolz)
-- Hugging Face: [FreyFlyy](https://huggingface.co/FreyFlyy)
+## Profiles & Contacts
+
+- **GitHub:** [FreyFlyy](https://github.com/FreyFlyy)
+- **LinkedIn:** [Francesco Scolz](https://www.linkedin.com/in/francesco-scolz)
+- **Kaggle:** [freyfly](https://www.kaggle.com/freyfly)
+- **Hugging Face:** [FreyFlyy](https://huggingface.co/FreyFlyy)
