@@ -51,7 +51,7 @@ Peer-to-peer messaging application providing end-to-end encryption, authenticate
 - **Security features:** Encrypted identity vault, fixed-size 4096-byte packet padding, out-of-band fingerprint verification, and hardened storage/memory handling.
 - **Security model:** Documented threat model and explicit security limitations.
 - **Status:** Experimental early release, with a roadmap toward Double Ratchet/X3DH, post-compromise security, and memory-safe critical components.
-- **Packaging:** Arch Linux.
+- **Packaging:** cross-distro compatible AppImage.
 
 ### [Recto](https://github.com/FreyFlyy/Recto)
 
