@@ -6,6 +6,11 @@
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Versioning-F05032?logo=git&logoColor=white)
 
+> 💎 Non ad originem, sed ad qualitatem.
+> 
+> *Don't judge by the origin, judge by its quality*
+
+
 Student focused on computer science, mathematics, and systems engineering, with hands-on experience developing software, managing Linux systems, analyzing network traffic, and building machine learning pipelines.
 
 I work across the stack, from system configuration and network analysis to application development, data analysis, and model evaluation. My projects emphasize practical engineering, measurable results, reliability, and a clear understanding of system behavior.
