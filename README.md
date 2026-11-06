@@ -37,6 +37,16 @@ I work across the stack, from system configuration and network analysis to appli
 
 ## Featured Projects
 
+### 🥇 [Redoubt](https://github.com/FreyFlyy/Redoubt)
+
+Peer-to-peer messaging application providing end-to-end encryption, authenticated contacts, and protection against passive network observation and active man-in-the-middle attacks.
+
+- **Implementation:** Python-based CLI/TUI application using X25519, HKDF, AES-GCM, Argon2id, and SQLCipher.
+- **Security Features:** Encrypted identity vault, fixed-size 4096-byte packet padding, out-of-band fingerprint verification, and hardened storage and memory handling.
+- **Security Model:** Documented threat model, clearly defined security assumptions, and explicit security limitations.
+- **Status:** Stable release. The roadmap includes Tor/Onion integration, enhanced post-compromise security, and migration of security-critical components to memory-safe languages.
+- **Packaging:** Cross-distribution Linux AppImage and standalone Windows executable.
+
 ### [LightIDS](https://github.com/FreyFlyy/light-ids)
 
 Lightweight, heuristic-based Intrusion Detection System for real-time network traffic analysis and anomaly detection in home labs.
@@ -47,16 +57,6 @@ Lightweight, heuristic-based Intrusion Detection System for real-time network tr
 - **Resource usage:** Under 1% CPU direct at idle and approximately 220–330 MB RAM.
 - **Detection capabilities:** Port scans, flooding/DoS patterns, and suspicious service probing.
 - **Status:** v3.0.0.
-
-### [Redoubt](https://github.com/FreyFlyy/Redoubt)
-
-Peer-to-peer messaging application providing end-to-end encryption, authenticated contacts, and protection against passive network observation and active man-in-the-middle attacks.
-
-- **Implementation:** Python CLI/TUI using X25519, HKDF, AES-GCM, Argon2id, and SQLCipher.
-- **Security features:** Encrypted identity vault, fixed-size 4096-byte packet padding, out-of-band fingerprint verification, and hardened storage/memory handling.
-- **Security model:** Documented threat model and explicit security limitations.
-- **Status:** Experimental early release, with a roadmap toward Double Ratchet/X3DH, post-compromise security, and memory-safe critical components.
-- **Packaging:** cross-distro compatible AppImage.
 
 ### [Recto](https://github.com/FreyFlyy/Recto)
 
