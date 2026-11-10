@@ -6,13 +6,9 @@
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Versioning-F05032?logo=git&logoColor=white)
 
-> 💎 **Non ad originem, sed ad qualitatem.**
+> 💎 **Non ad originem, sed ad qualitatem** *(Don't judge by the origin, judge by its quality)*
 >
-> *Don't judge by the origin, judge by its quality.*
->
-> **Quis es tu, ut te iudicem tribunal mundi?**
->
-> *Who are you to appoint yourself judge of the world?*
+> 🧑‍⚖️ **Quis es tu, ut te iudicem tribunal mundi?** *(Who are you to appoint yourself judge of the world?)*
 
 
 Student focused on computer science, mathematics, and systems engineering, with hands-on experience developing software, managing Linux systems, analyzing network traffic, and building machine learning pipelines.
